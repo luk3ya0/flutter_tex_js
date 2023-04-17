@@ -18,7 +18,14 @@ fileprivate let html = """
         <link rel="stylesheet" href="katex.min.css">
         <script src="katex.min.js"></script>
         <style type="text/css">
+         @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
          body { background: transparent; margin: 0; }
+         .katex {
+           text-rendering: auto;
+           font-style: normal;
+           font: 1em "Fira Code", KaTeX_Main, "Times New Roman", serif;
+           text-indent: 0px;
+         }
          .katex-display { margin: 0; }
          .katex-html > .tag { position: unset !important; padding-left: 2em; }
          #math { float: left; padding-top: 1px; padding-bottom: 1px; }
