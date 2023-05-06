@@ -23,10 +23,6 @@ fileprivate let html = """
         .katex-html > .tag { position: unset !important; padding-left: 2em; }
         #math { float: left; padding-top: 1px; padding-bottom: 1px; }
         /* CSS */
-        @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
-         * {
-            font-family: "Fira Code", "PingFang SC" !important;
-        }
         .katex {
             text-rendering: auto;
             font: normal 1.21em "Fira Code", KaTeX_Main, Times New Roman, serif !important;
