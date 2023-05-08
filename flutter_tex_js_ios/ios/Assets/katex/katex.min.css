@@ -225,7 +225,7 @@
 }
 
 .katex .textit {
-    font-style: italic
+    font-style: normal
 }
 
 .katex .textrm {
@@ -242,12 +242,12 @@
 
 .katex .mathnormal {
     font-family: "Fira Code", KaTeX_Math;
-    font-style: italic
+    font-style: normal
 }
 
 .katex .mathit {
     font-family: "Fira Code", KaTeX_Main;
-    font-style: italic
+    font-style: normal
 }
 
 .katex .mathrm {
@@ -261,7 +261,7 @@
 
 .katex .boldsymbol {
     font-family: "Fira Code", KaTeX_Math;
-    font-style: italic;
+    font-style: normal;
     font-weight: 700
 }
 
@@ -296,7 +296,7 @@
 
 .katex .mathitsf, .katex .textitsf {
     font-family: "Fira Code", KaTeX_SansSerif;
-    font-style: italic
+    font-style: normal
 }
 
 .katex .mainrm {
