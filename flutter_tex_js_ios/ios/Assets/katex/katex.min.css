@@ -180,7 +180,7 @@
 
 .katex {
     text-rendering: auto;
-    font: normal 1.21em "Fira Code", KaTeX_Main, Times New Roman, serif !important;
+    font: normal 1em "Fira Code", KaTeX_Main, Times New Roman, serif !important;
     line-height: 1.2;
     text-indent: 0
 }

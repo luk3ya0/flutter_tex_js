@@ -25,7 +25,7 @@ fileprivate let html = """
         /* CSS */
         .katex {
             text-rendering: auto;
-            font: normal 1.21em "Fira Code", KaTeX_Main, Times New Roman, serif !important;
+            font: normal 1em "Fira Code", KaTeX_Main, Times New Roman, serif !important;
             line-height: 1.2;
             text-indent: 0
         }
@@ -45,12 +45,6 @@ fileprivate let html = """
             display: block;
             margin: .8em 0;
             text-align: center
-        }
-        
-        .katex {
-            text-rendering: auto;
-            font: 1.03em / 1.2 "Fira Code", "PingFang SC", KaTeX_Main, "Times New Roman", serif;
-            text-indent: 0px;
         }
         </style>
     </head>
