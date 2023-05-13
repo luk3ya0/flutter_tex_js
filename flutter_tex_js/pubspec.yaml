@@ -15,7 +15,10 @@ dependencies:
   #   path: ../flutter_tex_js_android
   # flutter_tex_js_ios: ^2.0.0
   flutter_tex_js_ios:
-    path: ../flutter_tex_js_ios
+    git:
+      url: https://github.com/luk3ya0/flutter_tex_js.git
+      ref: master
+      path: flutter_tex_js_ios
   flutter_tex_js_platform_interface: ^1.0.0
   # flutter_tex_js_platform_interface:
   # path: ../flutter_tex_js_platform_interface
